@@ -1,10 +1,13 @@
 [project]
 name = "transformer"
 version = "0.1.0"
-description = "Add your description here"
+description = "Build and Train the Transformer from scratch. "
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
+    "datasets>=5.0.1",
     "numpy>=2.4.6",
+    "tokenizers>=0.23.2",
     "torch>=2.14.0",
+    "torchtext>=0.18.0",
 ]
